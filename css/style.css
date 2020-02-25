@@ -1,0 +1,141 @@
+body{
+   background-color: #eabab1;
+}
+
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color:#0d192c ;
+
+}
+
+h3{
+    margin: 0 auto !important;
+    color: lightblue;
+    font-size: 8rem;
+    font-weight: 600;
+}
+
+.rounded-circle{
+    border: white 2px solid;
+}
+
+.search-box{
+    float: right !important;
+    background-color: white;
+    border-radius: 40px;
+    padding: 10px;
+    height: 40px;
+    border: #0d192c 1px solid;
+}  
+
+.search-box:hover > .search-txt{
+     width: 240px;
+     padding: 0 6px;
+ }  
+   
+.search-box:hover > .search-btn{
+    background-color: white;
+} 
+
+.search-btn{
+     color: #6CAE75;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color:  #2f3640;
+     justify-content: center;
+     align-items: center;
+ } 
+ 
+a svg{
+    color: #0d192c !important;
+ }
+
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    color: #eabab1;
+    transition: ease 0.4s;
+    float: left;
+    padding: 0;
+    line-height: 20px;
+    width: 0;
+}
+
+.three.dot{
+    float: left;
+    /* padding: 15px; */
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    background-color: lightblue;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+hr{
+    border-width: 2px;
+    margin: 0 0 2rem 0;
+    border-color: white;
+}
+
+.contact input{
+    border-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+ul.collection{
+    list-style-type: none;
+
+}
+
+li.collection-item{
+    color:white;
+}
+
+
+
+
+
+
+
+
+/* set media query */
+@media screen and (min-width: 600px) {
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+        height: 100vh;
+    } 
+  }
+
+
+   @media screen and (min-width: 800px) {
+    .wrapper {
+        width: 70%;
+        margin: 0 auto;
+        height: 100vh;
+    } 
+  }
+
+  @media screen and (min-width: 1000px) {
+    .wrapper {
+        width: 60%;
+        height: 100vh;
+        margin: 0 auto;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .wrapper {
+        width: 50%;
+        height: 100vh;
+        margin: 0 auto;
+    }
+} 
